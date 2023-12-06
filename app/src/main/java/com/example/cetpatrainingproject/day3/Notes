@@ -1,0 +1,13 @@
+Day 3 - MODULE 2: CONTROL FLOW
+(Control flow in kotlin refers to the order which statement are executed in a program)
+
+1. Kotlin if Expression:
+ If -> is an expression: it returns a value ()
+
+2. Kotlin when Expression:
+3. Kotlin for Loop: , for, While, Do, forEach
+
+4. Kotlin while Loop:
+5. Kotlin Do while Loop:
+6. Return and Jump:
+7. Continue Structure:
