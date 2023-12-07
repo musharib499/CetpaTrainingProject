@@ -1,0 +1,70 @@
+Day 4 - MODULE 3: FUNCTION
+1. Kotlin Function:
+Introduction to functions in Kotlin.
+// Function are used to encapsulated a piece of behavior that can executed multiple times. Function can accepts input parameters,
+// returns values and proved a way to encapsulate complex logic and reusable block of code.
+
+
+
+Syntax for declaring and invoking functions.
+// Kotlin i used to define function by keyword fun
+// fun name() {}
+// return function -
+fun name():Int {
+  return a*b
+}
+
+
+
+
+
+
+
+
+
+Parameters and return types in Kotlin functions.
+Examples demonstrating basic function usage.
+
+
+
+2. Recursion Function: That call itself (self calling)
+Understanding recursive functions.
+Exploring the concept of a function calling itself.
+Examples illustrating recursive function design and implementation.
+
+
+
+
+
+
+
+
+
+
+
+3. Default and Named Argument:
+Introducing default values for function parameters.
+Explaining named arguments and their role in function invocation.
+Examples showcasing the flexibility of default and named arguments.
+
+
+
+4. Kotlin Lambdas:
+ * Syntax and application of lambdas.
+ * val name: (any daya types)-> Unit  = { anytype ->}
+
+5. Higher-order Function:
+// you not pass function as arugument(parameters) in normal function - normal function
+fun normalFunction(a: Int, b: Int): Int {
+    return a + b
+} // fixed
+
+// High  order function also a function - pass as argument as function and return result as function
+
+// lamda expression passing in format argument in function
+
+
+6. Kotlin Inline Function:
+Understanding the concept of inline functions.
+Advantages and use cases for inline functions.
+Examples showcasing the impact of inlining on performance.
