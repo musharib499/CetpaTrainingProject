@@ -1,0 +1,22 @@
+
+// Kotlin Exception
+// How to handle exception handling?
+// How to use try-catch?
+// How to use throw and finally
+
+
+// If you writing any logic or program -- some time not clear at compile or run time.
+
+// An exception is an unwanted or unexpected event-
+it will occurs during the execution of a program
+
+// How many types of exception
+// 1. Checked Exception (Compile time) -
+// 2. UnChecked Exception (Run time)-
+
+// Let me write down - Soma of common exception
+// 1. NullPointerException - It is thrown when try invoke a property or method on null object
+// 2. Arithmetic Exception - It is thrown when invalid arithmetic operations are perform on number like - divide/0 -- will thrown exception
+// 3. SecurityException - It is thrown to indicate security violation - System property try to access
+// 4. ArrayIndexOutBondException - (val list = [1,2,3,4,5])  list[6] - it will throw
+// 2222/0.0
