@@ -1,0 +1,21 @@
+
+// Kotlin Null Safety
+
+String st = null
+
+if(st == null) 0  else st.length //
+it depends on you
+
+# We can Declaring two types
+ 1.Nullable - We can assign null
+ 2.Non-Nullable - We can not assign null
+
+ // Safe Call (?.) - it used to invoke a method(function,object) or access a property only it the receiver is non-null if receiver is null then result will be null
+ // Elvis Operator (?:) - If found null then provide default value if you want
+
+ // Safe Casts('as?') - it us for safe casting -
+ // !! Operator (Non-null Assertion) -- Is used to tell the compiler that the receiver cannot be null. nullable convert into non- nullable value
+ // Let Function -- execute block of code
+ // Syntax   .let {}
+
+
