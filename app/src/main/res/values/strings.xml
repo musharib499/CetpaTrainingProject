@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CetpaTrainingProject</string>
+    <string name="login">Login</string>
+    <string name="enter_user_name">Enter user Name</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="enter_the_password">Enter the password</string>
 </resources>
