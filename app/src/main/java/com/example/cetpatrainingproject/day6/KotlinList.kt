@@ -1,5 +1,7 @@
 package com.example.cetpatrainingproject.day6
 
+import com.example.cetpatrainingproject.day10.CetpaClass
+
 /** List
  * 1. Ordered collections of element that allow duplicate
  * */
@@ -9,6 +11,7 @@ var immutableFruitsList = listOf<FruitsData>(
     FruitsData("Apple",10),
     FruitsData("Banana",20),
     FruitsData("Orange",30),
+
 )
 data class FruitsData( val fruitName:String,val q:Int)
 // mutable- read and write - mutableListOf(), arrayListOf() and ArrayList
@@ -47,6 +50,8 @@ fun main() {
 //  val  list2 = listOf<Int>(5,6,7,8)
 //  var flatList  = list.flatMap { list2 }
     getItem(mutableList)
+
+    val cetpaClass = CetpaClass
 }
 
 fun getItem(list: Collection<Any>? = null) {

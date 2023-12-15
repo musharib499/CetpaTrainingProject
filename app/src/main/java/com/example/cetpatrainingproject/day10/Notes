@@ -1,0 +1,34 @@
+
+
+Whats is Class? How to define
+A blueprint for creating object.
+Encapsulate properties (Attributes-properties) + Method(function)
+Binding many information binding in one block - method + variable + nested class+ etc
+Syntex - {}, keyword - class
+class NameOfClass(Which you want define) {}
+Class have constructors.
+Constructors divided into two Constructors
+1. Primary Constructors - Define in class header
+2. Second Constructors - Define in body of class
+
+
+
+Whats is Object in kotlin? :
+
+// Single
+
+
+Access Modifier in Kotlin
+ 1. Public  - You can access anywhere
+ 2. Private  - You can access with in same class or file
+ 3. Protected -  You can access with in same file, class or subclass
+ 4. Internal - You can access same module
+
+class A {
+} //  I can not access in this class
+class B :A{
+  protected val name:String?= ""
+}
+
+class
+
