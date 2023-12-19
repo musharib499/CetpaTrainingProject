@@ -18,3 +18,7 @@ Abstract Class:
 3. Class name or method can define by keyword -"abstract"
 4. We can define abstract and non abstract method or properties
 5. Abstract class have constructor and init block you can
+
+
+
+8. Data Class :

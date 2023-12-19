@@ -1,0 +1,42 @@
+8. Data Class :
+// Whats is data class?
+// This is new type of class called data class which use to hold data.
+// Compiler generate automatically generate these method
+// equals()
+// hashCode()
+// toString()
+// copy()
+
+// Base requirement of data class
+1. Primary constructor At lest one parameter // data class MyData(val name:String)
+2. all parameters soluble be define by val or var
+3. Data class can not be abstract, open , sealed,
+
+
+
+
+// This is normal class
+class A {
+
+
+}
+
+
+
+// Sealed Class
+// Represent restricted on class hierarchies
+// Keyword - sealed
+// Sealed class generated on compile time.
+// Sealed class have subclass you can create multiple instance of subclass
+
+
+
+// Enum class have only one instance also subclass have single instance
+enum DataEnum() {
+  AGE,
+  ADDRESS,
+  ZIP
+}
+
+
+// Extension Function

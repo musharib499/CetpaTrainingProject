@@ -1,0 +1,21 @@
+
+
+//MVVM - Model + View + ViewModel
+ // Model - Data Layer
+ // View - UI Layer
+ // ViewModel - Domain Layer
+
+ // ViewModel - Architecture components
+
+ // It will not create viewModel instance if activity is rotation or configuration change
+ // You Move landscape to portrait - ViewModel instance will not create again it will be use previous instance
+ // You Move portrait to landscape - ViewModel instance will not create again it will be use previous instance
+
+ // DataBinding
+
+ // In Layout - <layout>
+ <data>
+ <varibale/>
+
+ </data>
+ </layout>

@@ -1,5 +1,6 @@
 package com.example.cetpatrainingproject.day11
 
+import com.example.cetpatrainingproject.day12.removeSemicolan
 
 
 // How create interface? define keyword as interface
@@ -65,5 +66,4 @@ fun main() {
     val instance  = Calculater()
     println(instance.add(10,20))
     println(instance.multiple(10,20))
-
 }
