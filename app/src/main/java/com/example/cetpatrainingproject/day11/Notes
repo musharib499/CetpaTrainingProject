@@ -1,0 +1,20 @@
+6. Abstract Class
+Abstract Class: Marked with abstract, cannot be instantiated and may have abstract methods.
+7. Kotlin Interface
+Interface: Defines a contract of methods that implementing classes must provide.
+8. Data Class
+Data Class: Automatically generates toString(), equals(), and hashCode().
+9. Sealed Class
+Sealed Class: Restricts inheritance to classes defined in the same file, often used for restricted hierarchies.
+10. Extension Function
+Extension Function: Adds new functions to existing classes without modifying their code.
+11. Kotlin Generics
+Generics: Enables writing classes and functions that work with different types.
+
+Abstract Class:
+
+1. We can not create instance abstract class
+2. Only can extend this class
+3. Class name or method can define by keyword -"abstract"
+4. We can define abstract and non abstract method or properties
+5. Abstract class have constructor and init block you can
