@@ -1,0 +1,17 @@
+// XML use in android - Design
+Divide in 3 language
+// 1. Kotlin/Java
+// 2. XML -
+// 3. Groovy
+
+// XML - Design -
+// DP - Width, height, Padding, Margin , SP- Font Size
+ViewGroup -> This a collection of Views - View-> View
+Layouts
+1. Linear Layout
+2. Relative Layout
+3. Frame Layout
+4. Constrain Layout
+5. Table Layout
+
+

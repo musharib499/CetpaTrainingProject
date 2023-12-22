@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Height -match_parent,wrap_content -->
+<!-- Height or width divide into 3 parts , match,wrap,custom-->
+<!--  match_parent : full, -->
+<!--  wrap_content : based on child (automatically), -->
+<!--  orientation : 2 types vertical,horizontal , -->
+<!-- -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_weight="100"
+    android:orientation="horizontal"
+    >
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/black"
+        android:layout_weight="33.33"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/yellow"
+        android:layout_weight="33.3"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:background="@color/purple_200"
+        android:layout_weight="33.3"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="@color/purple_200"
+        android:layout_weight="33.3"
+        android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="33.3"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            >
+            <View
+                android:layout_width="50dp"
+                android:background="@color/white"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@color/purple_700"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+<!--    <TextView-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</LinearLayout>

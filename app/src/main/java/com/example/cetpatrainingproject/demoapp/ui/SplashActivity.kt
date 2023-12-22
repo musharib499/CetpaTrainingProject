@@ -16,12 +16,18 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+        val sharedPreferences = sharedPreferences()
 
         CoroutineScope(Dispatchers.Main).launch {
             delay(5000)
-            val intent = Intent(this@SplashActivity, LoginActivity::class.java)
-            startActivity(intent)
-            finish()
+            val userId  = sharedPreferences?.getString(USER_ID,null)
+            if (userId.isNullOrEmpty()) {
+                val intent = Intent(this@SplashActivity, LoginActivity::class.java)
+                startActivity(intent)
+                finish()
+            } else {
+                toast("Already login $userId")
+            }
 
         }
 
